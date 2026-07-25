@@ -7,7 +7,7 @@
 #define INF 1000000000
 #define NUM_RUNS 10000 // 計測用の実行回数
 
-// ノードを分かりやすく管理するための列挙型（前回と同じインデックス）
+// ノードを分かりやすく管理するための列挙型
 enum Node {
     N_s, N_a, N_b, N_c, N_d, N_e, N_f, N_g, N_h, N_i, N_j, N_k, N_l, N_m,
     N_n, N_o, N_p, N_q,
