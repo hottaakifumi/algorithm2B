@@ -31,7 +31,6 @@ int EvaluatePath(Item items[], int n, int state[], int *total_price) {
 }
 
 // 判定関数: 資料のP = e^((f(next)-f(curr))/T) を計算
-// ※今回はコスト(スコア)を「最大化」したいので、(newcost - cost) としています。
 int Probability(double cost, double newcost, double T) {
     // 0.0から1.0までの乱数
     double rnd = (double)rand() / RAND_MAX;
